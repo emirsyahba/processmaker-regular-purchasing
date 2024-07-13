@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.2.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1720851514</meta>
+    <meta key="export_datetime"><![CDATA[2024-07-13T13:18:34+07:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[::1:88]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">50631</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">Product Master Data</meta>
+    <meta key="uid">78277587866483e2e5792c7043336751</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>15969848666483ea72d54c7076113833</act_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <act_name>Buat data produk baru</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>64324951166483ea72de698022853378</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>15969848666483ea72d54c7076113833</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>536</bou_x>
+        <bou_y>15</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <act_uid>55889892566483e7f231346031652029</act_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <act_name>Pilih aksi yang ingin dilakukan</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>39047241266483e7f23b596027652012</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>55889892566483e7f231346031652029</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>219</bou_x>
+        <bou_y>163</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <act_uid>7005004886649e06ccfbaa4021800849</act_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <act_name>Daftarkan Supplier Produk</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>3250427246649e06cd03c79098718481</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>7005004886649e06ccfbaa4021800849</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>535</bou_x>
+        <bou_y>303</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <act_uid>75515747066483ecf236df6008398242</act_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <act_name>Edit data produk yang sudah ada</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>67327880866483ecf23f248024877770</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>75515747066483ecf236df6008398242</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>537</bou_x>
+        <bou_y>111</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <act_uid>79537963866483ecf28ebf8036703320</act_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <act_name>Cek data produk yang sudah ada</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>21374511766483ecf296cd0078568719</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>79537963866483ecf28ebf8036703320</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>534</bou_x>
+        <bou_y>208</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>10903930666483e3c0a26d2063933572</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>11853027366483e3c099f34059588483</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>110</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>13665771466483e3c066910021358040</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>43142700166483e3c059fe5089548309</element_uid>
+        <bou_element>16806030266483e2e5a0cf5029886237</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>208</bou_x>
+        <bou_y>42</bou_y>
+        <bou_width>895</bou_width>
+        <bou_height>395</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>18566894566483ea73413b4056124380</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>89718627966483ea7339ff4097544439</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>438</bou_x>
+        <bou_y>180</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>21374511766483ecf296cd0078568719</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>79537963866483ecf28ebf8036703320</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>534</bou_x>
+        <bou_y>208</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>3250427246649e06cd03c79098718481</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>7005004886649e06ccfbaa4021800849</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>535</bou_x>
+        <bou_y>303</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>39047241266483e7f23b596027652012</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>55889892566483e7f231346031652029</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>219</bou_x>
+        <bou_y>163</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>49826049866483ef72bacd7037455590</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>97674560566483ef72b36b4075425917</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>719</bou_x>
+        <bou_y>180</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>64324951166483ea72de698022853378</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>15969848666483ea72d54c7076113833</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>536</bou_x>
+        <bou_y>15</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>67327880866483ecf23f248024877770</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>75515747066483ecf236df6008398242</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>537</bou_x>
+        <bou_y>111</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>75582885766483f069af017090414836</bou_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>30364990266483f069a60e0026179220</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>823</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_name>Product Master Data</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>11853027366483e3c099f34059588483</evn_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <evn_name>Proses dimulai</evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>10903930666483e3c0a26d2063933572</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>11853027366483e3c099f34059588483</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>110</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <evn_uid>30364990266483f069a60e0026179220</evn_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <evn_name>Proses selesai</evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>75582885766483f069af017090414836</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>30364990266483f069a60e0026179220</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>823</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>15270996066483f069e9be3024767002</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>97674560566483ef72b36b4075425917</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>30364990266483f069a60e0026179220</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition>1</flo_condition>
+        <flo_x1>968</flo_x1>
+        <flo_y1>234</flo_y1>
+        <flo_x2>1031</flo_x2>
+        <flo_y2>234</flo_y2>
+        <flo_state><![CDATA[[{"x":968,"y":234},{"x":1031,"y":234}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>4484558106649e0bcba1dd5010600144</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>89718627966483ea7339ff4097544439</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>15969848666483ea72d54c7076113833</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@aksi_product_master_data=="add"]]></flo_condition>
+        <flo_x1>667</flo_x1>
+        <flo_y1>213</flo_y1>
+        <flo_x2>744</flo_x2>
+        <flo_y2>86</flo_y2>
+        <flo_state><![CDATA[[{"x":667,"y":213},{"x":667,"y":86},{"x":744,"y":86}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>48345947266483ea738f9d8007855068</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>55889892566483e7f231346031652029</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>89718627966483ea7339ff4097544439</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>578</flo_x1>
+        <flo_y1>234</flo_y1>
+        <flo_x2>646</flo_x2>
+        <flo_y2>234</flo_y2>
+        <flo_state><![CDATA[[{"x":578,"y":234},{"x":646,"y":234}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>7446289066649e081775503055158599</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7005004886649e06ccfbaa4021800849</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>97674560566483ef72b36b4075425917</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>894</flo_x1>
+        <flo_y1>374</flo_y1>
+        <flo_x2>948</flo_x2>
+        <flo_y2>254</flo_y2>
+        <flo_state><![CDATA[[{"x":894,"y":374},{"x":948,"y":374},{"x":948,"y":254}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>77789306666483ef72fa935005571821</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>79537963866483ecf28ebf8036703320</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>97674560566483ef72b36b4075425917</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>893</flo_x1>
+        <flo_y1>279</flo_y1>
+        <flo_x2>948</flo_x2>
+        <flo_y2>254</flo_y2>
+        <flo_state><![CDATA[[{"x":893,"y":279},{"x":948,"y":279},{"x":948,"y":254}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>89135742166483e7f2e6851007501468</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>11853027366483e3c099f34059588483</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>55889892566483e7f231346031652029</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>351</flo_x1>
+        <flo_y1>234</flo_y1>
+        <flo_x2>427</flo_x2>
+        <flo_y2>234</flo_y2>
+        <flo_state><![CDATA[[{"x":351,"y":234},{"x":427,"y":234}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>91494750966483ef72f90a3072065283</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>15969848666483ea72d54c7076113833</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>97674560566483ef72b36b4075425917</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>895</flo_x1>
+        <flo_y1>86</flo_y1>
+        <flo_x2>948</flo_x2>
+        <flo_y2>213</flo_y2>
+        <flo_state><![CDATA[[{"x":895,"y":86},{"x":948,"y":86},{"x":948,"y":213}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>95275878966483ef72f7a28000718836</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>75515747066483ecf236df6008398242</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>97674560566483ef72b36b4075425917</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>896</flo_x1>
+        <flo_y1>182</flo_y1>
+        <flo_x2>948</flo_x2>
+        <flo_y2>213</flo_y2>
+        <flo_state><![CDATA[[{"x":896,"y":182},{"x":948,"y":182},{"x":948,"y":213}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>1854553226649e0bcba3e85046800675</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>89718627966483ea7339ff4097544439</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>75515747066483ecf236df6008398242</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@aksi_product_master_data=="edit"]]></flo_condition>
+        <flo_x1>667</flo_x1>
+        <flo_y1>213</flo_y1>
+        <flo_x2>745</flo_x2>
+        <flo_y2>182</flo_y2>
+        <flo_state><![CDATA[[{"x":667,"y":213},{"x":667,"y":182},{"x":745,"y":182}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+      <record>
+        <flo_uid>7632446286649e0bcba5c05010893683</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>89718627966483ea7339ff4097544439</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>79537963866483ecf28ebf8036703320</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@aksi_product_master_data=="view"]]></flo_condition>
+        <flo_x1>667</flo_x1>
+        <flo_y1>254</flo_y1>
+        <flo_x2>742</flo_x2>
+        <flo_y2>279</flo_y2>
+        <flo_state><![CDATA[[{"x":667,"y":254},{"x":667,"y":279},{"x":742,"y":279}]]]></flo_state>
+        <flo_position>3</flo_position>
+      </record>
+      <record>
+        <flo_uid>4726562506649e0bcba7f18033915474</flo_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>89718627966483ea7339ff4097544439</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7005004886649e06ccfbaa4021800849</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@aksi_product_master_data=="regist"]]></flo_condition>
+        <flo_x1>667</flo_x1>
+        <flo_y1>254</flo_y1>
+        <flo_x2>743</flo_x2>
+        <flo_y2>374</flo_y2>
+        <flo_state><![CDATA[[{"x":667,"y":254},{"x":667,"y":374},{"x":743,"y":374}]]]></flo_state>
+        <flo_position>4</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>89718627966483ea7339ff4097544439</gat_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>18566894566483ea73413b4056124380</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>89718627966483ea7339ff4097544439</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>438</bou_x>
+        <bou_y>180</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <gat_uid>97674560566483ef72b36b4075425917</gat_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>CONVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>49826049866483ef72bacd7037455590</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>97674560566483ef72b36b4075425917</element_uid>
+        <bou_element>43142700166483e3c059fe5089548309</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>719</bou_x>
+        <bou_y>180</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANE"/>
+    <table name="LANESET">
+      <record>
+        <lns_uid>43142700166483e3c059fe5089548309</lns_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <lns_name>Product Master Data</lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>13665771466483e3c066910021358040</bou_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <element_uid>43142700166483e3c059fe5089548309</element_uid>
+        <bou_element>16806030266483e2e5a0cf5029886237</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>208</bou_x>
+        <bou_y>42</bou_y>
+        <bou_width>895</bou_width>
+        <bou_height>395</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>52343750066483e2e5a94f0004172070</pro_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <dia_uid>16806030266483e2e5a0cf5029886237</dia_uid>
+        <pro_name>Product Master Data</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <prj_name>Product Master Data</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2024-05-18 12:35:42]]></prj_create_date>
+        <prj_update_date><![CDATA[2024-05-19 18:27:01]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <pro_title>Product Master Data</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>78277587866483e2e5792c7043336751</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>493713378662e1c38835e15006606148</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2024-05-19 18:27:01]]></pro_update_date>
+        <pro_create_date><![CDATA[2024-05-18 12:35:42]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>Master Data Input</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>15969848666483ea72d54c7076113833</tas_uid>
+        <tas_title>Buat data produk baru</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7462158206649c9bf07be82019996201</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>536</tas_posx>
+        <tas_posy>15</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>79537963866483ecf28ebf8036703320</tas_uid>
+        <tas_title>Cek data produk yang sudah ada</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7462158206649c9bf07be82019996201</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>534</tas_posx>
+        <tas_posy>208</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>7005004886649e06ccfbaa4021800849</tas_uid>
+        <tas_title>Daftarkan Supplier Produk</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7462158206649c9bf07be82019996201</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>535</tas_posx>
+        <tas_posy>303</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <tas_title>Edit data produk yang sudah ada</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7462158206649c9bf07be82019996201</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>537</tas_posx>
+        <tas_posy>111</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <tas_title>Pilih aksi yang ingin dilakukan</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7462158206649c9bf07be82019996201</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>219</tas_posx>
+        <tas_posy>163</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>3334350586649e206049233059524467</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>7005004886649e06ccfbaa4021800849</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>3770751956649e205f32370094379212</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>15969848666483ea72d54c7076113833</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>4309387206649e20602cca9018802709</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <rou_next_task>79537963866483ecf28ebf8036703320</rou_next_task>
+        <rou_case>4</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@aksi_product_master_data=="view"]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>4371032716649e206021670058205438</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <rou_next_task>7005004886649e06ccfbaa4021800849</rou_next_task>
+        <rou_case>5</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@aksi_product_master_data=="regist"]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>5301513676649e206082902070538941</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>79537963866483ecf28ebf8036703320</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>5811157226649e206012086021259236</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <rou_next_task>15969848666483ea72d54c7076113833</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@aksi_product_master_data=="add"]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>7524108886649e206063736007179640</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>9154357916649e206007f66003523054</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <rou_next_task>75515747066483ecf236df6008398242</rou_next_task>
+        <rou_case>3</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@aksi_product_master_data=="edit"]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>1898498536649dde24c92d0002199391</dyn_uid>
+        <dyn_title>Pilih Aksi Product Master Data</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\1898498536649dde24c92d0002199391]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Pilih Aksi Product Master Data","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"1898498536649dde24c92d0002199391","name":"Pilih Aksi Product Master Data","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"colSpan":5},{"type":"title","id":"title0000000001","label":"Pilih Aksi untuk Product Master Data","colSpan":4},{"colSpan":3}],[{"colSpan":4},{"type":"radio","variable":"aksi_product_master_data","var_uid":"9922485356649de59260e15083187639","dataType":"string","protectedValue":false,"id":"aksi_product_master_data","name":"aksi_product_master_data","label":"Pilih aksi","defaultValue":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"add","label":"Tambah Data Produk Baru"},{"value":"edit","label":"Edit Data Produk Yang Sudah Ada"},{"value":"view","label":"Lihat Data Produk"},{"value":"regist","label":"Daftarkan Supplier untuk Produk"}],"var_name":"aksi_product_master_data","colSpan":4},{"colSpan":4}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"9922485356649de59260e15083187639","prj_uid":"78277587866483e2e5792c7043336751","var_name":"aksi_product_master_data","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 18:21:13]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>2104797366649e15446bce0010995734</dyn_uid>
+        <dyn_title>Edit Produk</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\2104797366649e15446bce0010995734]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Edit Produk","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"2104797366649e15446bce0010995734","name":"Edit Produk","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"titleForm2","label":"Formulir Edit Produk","colSpan":12}],[{"type":"text","variable":"pilihan_produk","var_uid":"4463806156649df7503e2b9080895750","dataType":"string","protectedValue":false,"id":"pilihan_produk","name":"pilihan_produk","label":"ID Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"pilihan_produk","colSpan":6},{"type":"dropdown","variable":"kategori_produk","var_uid":"2773132326649dd13768c16092090528","dataType":"string","protectedValue":false,"id":"kategori_produk","name":"kategori_produk","label":"Kategori Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT id_kategori_produk, nama_kategori_produk FROM kategori_produk","dataVariable":"","options":[],"var_name":"kategori_produk","colSpan":6}],[{"type":"text","variable":"nama_produk","var_uid":"2097473146649dd1359c276091214308","dataType":"string","protectedValue":false,"id":"nama_produk","name":"nama_produk","label":"Nama Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"nama_produk","colSpan":6},{"type":"textarea","variable":"deskripsi_produk","var_uid":"4735717776649dd1367e1b5067116761","dataType":"string","protectedValue":false,"id":"deskripsi_produk","name":"deskripsi_produk","label":"Deskripsi Produk","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"deskripsi_produk","colSpan":6}],[{"type":"text","variable":"kuantitas","var_uid":"9945068356649dd1388c728047429884","dataType":"string","protectedValue":false,"id":"kuantitas","name":"kuantitas","label":"Kuantitas","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"kuantitas","colSpan":6},{"type":"dropdown","variable":"unit","var_uid":"9422302246649dd139f0ce1032282053","dataType":"string","protectedValue":false,"id":"unit","name":"unit","label":"Satuan","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT nama_satuan, nama_satuan FROM satuan_produk","dataVariable":"","options":[],"var_name":"unit","colSpan":6}],[{"type":"text","variable":"harga_per_unit","var_uid":"5329589846649dd13b1f663001601677","dataType":"string","protectedValue":false,"id":"harga_per_unit","name":"harga_per_unit","label":"Harga/unit","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_per_unit","colSpan":6},{"type":"text","variable":"harga_pokok","var_uid":"5942687986649dd13c52062074904461","dataType":"string","protectedValue":false,"id":"harga_pokok","name":"harga_pokok","label":"Harga Pokok","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_pokok","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Ubah Data Produk","colSpan":12}]],"variables":[{"var_uid":"4463806156649df7503e2b9080895750","prj_uid":"78277587866483e2e5792c7043336751","var_name":"pilihan_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2773132326649dd13768c16092090528","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kategori_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2773132326649dd13768c16092090528","var_name_old":"kategori_produk","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"2097473146649dd1359c276091214308","prj_uid":"78277587866483e2e5792c7043336751","var_name":"nama_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2097473146649dd1359c276091214308","var_name_old":"nama_produk","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"4735717776649dd1367e1b5067116761","prj_uid":"78277587866483e2e5792c7043336751","var_name":"deskripsi_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4735717776649dd1367e1b5067116761","var_name_old":"deskripsi_produk","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"9945068356649dd1388c728047429884","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kuantitas","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9945068356649dd1388c728047429884","var_name_old":"kuantitas","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"9422302246649dd139f0ce1032282053","prj_uid":"78277587866483e2e5792c7043336751","var_name":"unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5329589846649dd13b1f663001601677","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_per_unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5329589846649dd13b1f663001601677","var_name_old":"harga_per_unit","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"5942687986649dd13c52062074904461","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_pokok","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5942687986649dd13c52062074904461","var_name_old":"harga_pokok","prj_uid_old":"78277587866483e2e5792c7043336751","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 19:50:41]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>3392639166649eb84807a53014730073</dyn_uid>
+        <dyn_title>Lihat Produk</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\3392639166649eb84807a53014730073]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Lihat Produk","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"3392639166649eb84807a53014730073","name":"Lihat Produk","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"titleForm2","label":"Formulir Pendaftaran Produk","colSpan":12}],[{"type":"text","variable":"pilihan_produk","var_uid":"4463806156649df7503e2b9080895750","dataType":"string","protectedValue":false,"id":"pilihan_produk","name":"pilihan_produk","label":"ID Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"pilihan_produk","colSpan":6},{"type":"text","variable":"kategori_produk","var_uid":"2773132326649dd13768c16092090528","dataType":"string","protectedValue":false,"id":"kategori_produk","name":"kategori_produk","label":"Kategori Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"kategori_produk","colSpan":6}],[{"type":"text","variable":"nama_produk","var_uid":"2097473146649dd1359c276091214308","dataType":"string","protectedValue":false,"id":"nama_produk","name":"nama_produk","label":"Nama Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"nama_produk","colSpan":6},{"type":"textarea","variable":"deskripsi_produk","var_uid":"4735717776649dd1367e1b5067116761","dataType":"string","protectedValue":false,"id":"deskripsi_produk","name":"deskripsi_produk","label":"Deskripsi Produk","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"deskripsi_produk","colSpan":6}],[{"type":"text","variable":"kuantitas","var_uid":"9945068356649dd1388c728047429884","dataType":"string","protectedValue":false,"id":"kuantitas","name":"kuantitas","label":"Kuantitas","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"kuantitas","colSpan":6},{"type":"dropdown","variable":"unit","var_uid":"9422302246649dd139f0ce1032282053","dataType":"string","protectedValue":false,"id":"unit","name":"unit","label":"Satuan","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"view","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[],"var_name":"unit","colSpan":6}],[{"type":"text","variable":"harga_per_unit","var_uid":"5329589846649dd13b1f663001601677","dataType":"string","protectedValue":false,"id":"harga_per_unit","name":"harga_per_unit","label":"Harga/unit","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_per_unit","colSpan":6},{"type":"text","variable":"harga_pokok","var_uid":"5942687986649dd13c52062074904461","dataType":"string","protectedValue":false,"id":"harga_pokok","name":"harga_pokok","label":"Harga Pokok","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_pokok","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"4463806156649df7503e2b9080895750","prj_uid":"78277587866483e2e5792c7043336751","var_name":"pilihan_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2773132326649dd13768c16092090528","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kategori_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2097473146649dd1359c276091214308","prj_uid":"78277587866483e2e5792c7043336751","var_name":"nama_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2097473146649dd1359c276091214308","var_name_old":"nama_produk","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"4735717776649dd1367e1b5067116761","prj_uid":"78277587866483e2e5792c7043336751","var_name":"deskripsi_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4735717776649dd1367e1b5067116761","var_name_old":"deskripsi_produk","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"9945068356649dd1388c728047429884","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kuantitas","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9945068356649dd1388c728047429884","var_name_old":"kuantitas","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"9422302246649dd139f0ce1032282053","prj_uid":"78277587866483e2e5792c7043336751","var_name":"unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5329589846649dd13b1f663001601677","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_per_unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5329589846649dd13b1f663001601677","var_name_old":"harga_per_unit","prj_uid_old":"78277587866483e2e5792c7043336751","create":false},{"var_uid":"5942687986649dd13c52062074904461","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_pokok","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5942687986649dd13c52062074904461","var_name_old":"harga_pokok","prj_uid_old":"78277587866483e2e5792c7043336751","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 19:59:08]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>3651428226649df2635dac4014517417</dyn_uid>
+        <dyn_title><![CDATA[Pilih Produk untuk Edit/Lihat]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\3651428226649df2635dac4014517417]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Pilih Produk untuk Edit/Lihat","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"3651428226649df2635dac4014517417","name":"Pilih Produk untuk Edit/Lihat","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"colSpan":5},{"type":"title","id":"title0000000001","label":"Masukkan Produk Yang Diinginkan","colSpan":4},{"colSpan":3}],[{"colSpan":4},{"type":"dropdown","variable":"pilih_kategori_produk","var_uid":"6431274416649df63a712f9013268592","dataType":"string","protectedValue":false,"id":"pilih_kategori_produk","name":"pilih_kategori_produk","label":"Kategori Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT id_kategori_produk, nama_kategori_produk FROM kategori_produk","dataVariable":"","options":[],"var_name":"pilih_kategori_produk","colSpan":4},{"colSpan":4}],[{"colSpan":4},{"type":"dropdown","variable":"pilihan_produk","var_uid":"4463806156649df7503e2b9080895750","dataType":"string","protectedValue":false,"id":"pilihan_produk","name":"pilihan_produk","label":"Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT id_produk, nama_produk FROM data_produk WHERE kategori_produk = @@pilih_kategori_produk","dataVariable":"","options":[],"var_name":"pilihan_produk","colSpan":4},{"colSpan":4}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"6431274416649df63a712f9013268592","prj_uid":"78277587866483e2e5792c7043336751","var_name":"pilih_kategori_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4463806156649df7503e2b9080895750","prj_uid":"78277587866483e2e5792c7043336751","var_name":"pilihan_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 19:28:01]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>3941650396649f80a1d0c29036835421</dyn_uid>
+        <dyn_title>Pendaftaran Supplier untuk Produk</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\3941650396649f80a1d0c29036835421]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Pendaftaran Supplier untuk Produk","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"3941650396649f80a1d0c29036835421","name":"Pendaftaran Supplier untuk Produk","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Formulir Pendaftaran Pemasok Produk","colSpan":12}],[{"type":"dropdown","variable":"kategori_produk","var_uid":"2773132326649dd13768c16092090528","dataType":"string","protectedValue":false,"id":"kategori_produk","name":"kategori_produk","label":"Kategori Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT id_kategori_produk, id_kategori_produk FROM kategori_produk","dataVariable":"","options":[],"var_name":"kategori_produk","colSpan":4},{"type":"dropdown","variable":"nama_produk","var_uid":"2097473146649dd1359c276091214308","dataType":"string","protectedValue":false,"id":"nama_produk","name":"nama_produk","label":"Nama Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT nama_produk, nama_produk FROM data_produk WHERE kategori_produk = @@kategori_produk","dataVariable":"","options":[],"var_name":"nama_produk","colSpan":4},{"type":"dropdown","variable":"nama_pemasok","var_uid":"1255493166649f80fb0aff5012225417","dataType":"string","protectedValue":false,"id":"nama_pemasok","name":"nama_pemasok","label":"Nama Pemasok","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT nama_vendor, nama_vendor FROM data_vendor","dataVariable":"","options":[],"var_name":"nama_pemasok","colSpan":4}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Daftarkan","colSpan":12}]],"variables":[{"var_uid":"2773132326649dd13768c16092090528","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kategori_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"933441162662b669d068bc7084492056","var_name_old":"kategori_produk","prj_uid_old":"723144531662b6329944527093070149","create":false},{"var_uid":"2097473146649dd1359c276091214308","prj_uid":"78277587866483e2e5792c7043336751","var_name":"nama_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"495239257662b65d956a5e9026279841","var_name_old":"nama_produk","prj_uid_old":"723144531662b6329944527093070149","create":false},{"var_uid":"1255493166649f80fb0aff5012225417","prj_uid":"78277587866483e2e5792c7043336751","var_name":"nama_pemasok","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"295318603662b65e960ce20010972597","var_name_old":"nama_pemasok","prj_uid_old":"723144531662b6329944527093070149"}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 20:11:50]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>4100036626649dd0d08c861085731167</dyn_uid>
+        <dyn_title>Pendaftaran Produk</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[78277587866483e2e5792c7043336751\4100036626649dd0d08c861085731167]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Pendaftaran Produk","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"4100036626649dd0d08c861085731167","name":"Pendaftaran Produk","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"titleForm2","label":"Formulir Pendaftaran Produk","colSpan":12}],[{"type":"text","variable":"id_produk","var_uid":"8837890626649dd13450850081559699","dataType":"string","protectedValue":false,"id":"id_produk","name":"id_produk","label":"ID Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"id_produk","colSpan":6},{"type":"dropdown","variable":"kategori_produk","var_uid":"2773132326649dd13768c16092090528","dataType":"string","protectedValue":false,"id":"kategori_produk","name":"kategori_produk","label":"Kategori Produk","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT id_kategori_produk, nama_kategori_produk FROM kategori_produk","dataVariable":"","options":[],"var_name":"kategori_produk","colSpan":6}],[{"type":"text","variable":"nama_produk","var_uid":"2097473146649dd1359c276091214308","dataType":"string","protectedValue":false,"id":"nama_produk","name":"nama_produk","label":"Nama Produk","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"nama_produk","colSpan":6},{"type":"textarea","variable":"deskripsi_produk","var_uid":"4735717776649dd1367e1b5067116761","dataType":"string","protectedValue":false,"id":"deskripsi_produk","name":"deskripsi_produk","label":"Deskripsi Produk","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"deskripsi_produk","colSpan":6}],[{"type":"text","variable":"kuantitas","var_uid":"9945068356649dd1388c728047429884","dataType":"string","protectedValue":false,"id":"kuantitas","name":"kuantitas","label":"Kuantitas","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"kuantitas","colSpan":6},{"type":"dropdown","variable":"unit","var_uid":"9422302246649dd139f0ce1032282053","dataType":"string","protectedValue":false,"id":"unit","name":"unit","label":"Satuan","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"8428955076649ddb6264b61098322685","dbConnectionLabel":"[localhost:3306] mysql: process_maker","sql":"SELECT nama_satuan, nama_satuan FROM satuan_produk","dataVariable":"","options":[],"var_name":"unit","colSpan":6}],[{"type":"text","variable":"harga_per_unit","var_uid":"5329589846649dd13b1f663001601677","dataType":"string","protectedValue":false,"id":"harga_per_unit","name":"harga_per_unit","label":"Harga/unit","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_per_unit","colSpan":6},{"type":"text","variable":"harga_pokok","var_uid":"5942687986649dd13c52062074904461","dataType":"string","protectedValue":false,"id":"harga_pokok","name":"harga_pokok","label":"Harga Pokok","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"harga_pokok","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"8837890626649dd13450850081559699","prj_uid":"78277587866483e2e5792c7043336751","var_name":"id_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8950195316628bce617d532053819641","var_name_old":"id_produk","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"2773132326649dd13768c16092090528","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kategori_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8100280766628bd444142a6069133357","var_name_old":"kategori_produk","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"2097473146649dd1359c276091214308","prj_uid":"78277587866483e2e5792c7043336751","var_name":"nama_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6838684086628bcfe71e096022025739","var_name_old":"nama_produk","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"4735717776649dd1367e1b5067116761","prj_uid":"78277587866483e2e5792c7043336751","var_name":"deskripsi_produk","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4027709966628bd17431e59080184739","var_name_old":"deskripsi_produk","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"9945068356649dd1388c728047429884","prj_uid":"78277587866483e2e5792c7043336751","var_name":"kuantitas","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1211242676628be79751ec5038596842","var_name_old":"kuantitas","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"9422302246649dd139f0ce1032282053","prj_uid":"78277587866483e2e5792c7043336751","var_name":"unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5329589846649dd13b1f663001601677","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_per_unit","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7037353516628bf64ef0784096069132","var_name_old":"harga_per_unit","prj_uid_old":"510009765662869f7b72bc8035854480"},{"var_uid":"5942687986649dd13c52062074904461","prj_uid":"78277587866483e2e5792c7043336751","var_name":"harga_pokok","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2713928226628bf75ef7472028094863","var_name_old":"harga_pokok","prj_uid_old":"510009765662869f7b72bc8035854480"}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-05-19 19:50:03]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>1784057616649e17556d1c6084409861</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>2104797366649e15446bce0010995734</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>2</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>2257385256649e9ce22efc4014412567</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>15969848666483ea72d54c7076113833</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>4100036626649dd0d08c861085731167</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>2292175296649e17b86abf2005110203</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>3651428226649df2635dac4014517417</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>3971557616649f842357e34038393124</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>7005004886649e06ccfbaa4021800849</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>3941650396649f80a1d0c29036835421</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>6964721676649e08c62eb44031818241</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>55889892566483e7f231346031652029</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>1898498536649dde24c92d0002199391</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>7783813476649ebb877ef97042670968</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>79537963866483ecf28ebf8036703320</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>3392639166649eb84807a53014730073</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>2</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>9390563966649ebbfe276a5035904261</step_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tas_uid>79537963866483ecf28ebf8036703320</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>3651428226649df2635dac4014517417</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>2139282226649ea6b1c1d99083747169</tri_uid>
+        <tri_title>Update Data Produk</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$connection = "8428955076649ddb6264b61098322685";
+$idProduk = @@pilihan_produk;
+$namaProduk = @@nama_produk;
+$deskripsiProduk = @@deskripsi_produk;
+$kategoriProduk = @@kategori_produk;
+$kuantitas = @@kuantitas;
+$satuan = @@unit;
+$hargaPerUnit = @@harga_per_unit;
+$hargaPokok = @@harga_pokok;
+
+$query = "UPDATE data_produk SET
+    nama_produk = '$namaProduk',
+    deskripsi_produk = '$deskripsiProduk',
+    kategori_produk = '$kategoriProduk',
+    kuantitas = '$kuantitas',
+    satuan = '$satuan',
+    harga_per_unit = '$hargaPerUnit',
+    harga_pokok = '$hargaPokok'
+WHERE id_produk = '$idProduk'";
+executeQuery($query, $connection);
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>3042297366649f828b8ade6075108986</tri_uid>
+        <tri_title>Input Supplier untuk Produk</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$connection = "8428955076649ddb6264b61098322685";
+$namaProduk = @@nama_produk;
+$namaPemasok = @@nama_pemasok;
+
+$query = "INSERT INTO supplier_produk (
+    nama_produk,
+    nama_pemasok
+) VALUES (
+    '$namaProduk',
+    '$namaPemasok'
+)";
+executeQuery($query, $connection);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>5114135746649dd9338d321082752438</tri_uid>
+        <tri_title>Input Data Produk Baru</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$connection = "8428955076649ddb6264b61098322685";
+$idProduk = @@id_produk;
+$namaProduk = @@nama_produk;
+$deskripsiProduk = @@deskripsi_produk;
+$kategoriProduk = @@kategori_produk;
+$kuantitas = @@kuantitas;
+$satuan = @@unit;
+$hargaPerUnit = @@harga_per_unit;
+$hargaPokok = @@harga_pokok;
+
+$query = "INSERT INTO data_produk (
+    id_produk,
+    nama_produk,
+    deskripsi_produk,
+    kategori_produk,
+    kuantitas,
+    satuan,
+    harga_per_unit,
+    harga_pokok
+) VALUES (
+    '$idProduk',
+    '$namaProduk',
+    '$deskripsiProduk',
+    '$kategoriProduk',
+    '$kuantitas',
+    '$satuan',
+    '$hargaPerUnit',
+    '$hargaPokok'
+)";
+executeQuery($query, $connection);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>6837158206649eb625f7c24033165329</tri_uid>
+        <tri_title>Tampilkan Data Produk</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$pilihanProduk = @@pilihan_produk;
+$connection = "8428955076649ddb6264b61098322685";
+
+// Query untuk mengambil data produk berdasarkan id_produk
+$sqlProduk = executeQuery("SELECT nama_produk, deskripsi_produk, kategori_produk, kuantitas, satuan, harga_per_unit, harga_pokok FROM data_produk WHERE id_produk = '$pilihanProduk'", $connection);
+
+// Periksa apakah query berhasil dieksekusi dan apakah hasilnya tidak kosong
+if (!empty($sqlProduk)) {
+    // Jika berhasil, ambil data produk dari hasil query
+    $namaProduk = $sqlProduk[1]['nama_produk'];
+    $deskripsiProduk = $sqlProduk[1]['deskripsi_produk'];
+    $kategoriProduk = $sqlProduk[1]['kategori_produk'];
+    $kuantitas = $sqlProduk[1]['kuantitas'];
+    $satuan = $sqlProduk[1]['satuan'];
+    $hargaPerUnit = $sqlProduk[1]['harga_per_unit'];
+    $hargaPokok = $sqlProduk[1]['harga_pokok'];
+
+    // Set data produk ke dalam variabel dynaform
+    @@nama_produk = $namaProduk;
+    @@deskripsi_produk = $deskripsiProduk;
+    @@kategori_produk = $kategoriProduk;
+    @@kuantitas = $kuantitas;
+    @@unit = $satuan;
+    @@harga_per_unit = $hargaPerUnit;
+    @@harga_pokok = $hargaPokok;
+} else {
+    // Jika query tidak mengembalikan hasil, berikan pesan atau tangani secara sesuai kebutuhan Anda
+    // Misalnya:
+    // @@nama_produk = "Produk tidak ditemukan untuk ID produk ini.";
+    // @@deskripsi_produk = "Deskripsi tidak ditemukan untuk ID produk ini.";
+    // @@kategori_produk = "Kategori tidak ditemukan untuk ID produk ini.";
+    // @@kuantitas = "Kuantitas tidak ditemukan untuk ID produk ini.";
+    // @@unit = "Satuan tidak ditemukan untuk ID produk ini.";
+    // @@harga_per_unit = "Harga per unit tidak ditemukan untuk ID produk ini.";
+    // @@harga_pokok = "Harga pokok tidak ditemukan untuk ID produk ini.";
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>1784057616649e17556d1c6084409861</step_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <tri_uid>2139282226649ea6b1c1d99083747169</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>1784057616649e17556d1c6084409861</step_uid>
+        <tas_uid>75515747066483ecf236df6008398242</tas_uid>
+        <tri_uid>6837158206649eb625f7c24033165329</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>2257385256649e9ce22efc4014412567</step_uid>
+        <tas_uid>15969848666483ea72d54c7076113833</tas_uid>
+        <tri_uid>5114135746649dd9338d321082752438</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>3971557616649f842357e34038393124</step_uid>
+        <tas_uid>7005004886649e06ccfbaa4021800849</tas_uid>
+        <tri_uid>3042297366649f828b8ade6075108986</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>7783813476649ebb877ef97042670968</step_uid>
+        <tas_uid>79537963866483ecf28ebf8036703320</tas_uid>
+        <tri_uid>6837158206649eb625f7c24033165329</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>8428955076649ddb6264b61098322685</dbs_uid>
+        <pro_uid>78277587866483e2e5792c7043336751</pro_uid>
+        <dbs_type>mysql</dbs_type>
+        <dbs_server>localhost</dbs_server>
+        <dbs_database_name>process_maker</dbs_database_name>
+        <dbs_username>root</dbs_username>
+        <dbs_password>09Tf2NGWpaY_2NnV3ujj3w</dbs_password>
+        <dbs_port>3306</dbs_port>
+        <dbs_encode>utf8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>493713378662e1c38835e15006606148</category_uid>
+        <category_parent>0</category_parent>
+        <category_name>Master Data Input</category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1255493166649f80fb0aff5012225417</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>nama_pemasok</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2097473146649dd1359c276091214308</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>nama_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2773132326649dd13768c16092090528</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>kategori_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4463806156649df7503e2b9080895750</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>pilihan_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4735717776649dd1367e1b5067116761</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>deskripsi_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5329589846649dd13b1f663001601677</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>harga_per_unit</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5942687986649dd13c52062074904461</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>harga_pokok</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6431274416649df63a712f9013268592</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>pilih_kategori_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8837890626649dd13450850081559699</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>id_produk</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9422302246649dd139f0ce1032282053</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>unit</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9922485356649de59260e15083187639</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>aksi_product_master_data</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9945068356649dd1388c728047429884</var_uid>
+        <prj_uid>78277587866483e2e5792c7043336751</prj_uid>
+        <var_name>kuantitas</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>Pilih Aksi Product Master Data</file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\1898498536649dde24c92d0002199391.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzE4OTg0OTg1MzY2NDlkZGUyNGM5MmQwMDAyMTk5MzkxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Edit Produk</file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\2104797366649e15446bce0010995734.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzIxMDQ3OTczNjY2NDllMTU0NDZiY2UwMDEwOTk1NzM0IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Lihat Produk</file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\3392639166649eb84807a53014730073.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzMzOTI2MzkxNjY2NDllYjg0ODA3YTUzMDE0NzMwMDczIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[Pilih Produk untuk Edit/Lihat]]></file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\3651428226649df2635dac4014517417.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzM2NTE0MjgyMjY2NDlkZjI2MzVkYWM0MDE0NTE3NDE3IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Pendaftaran Supplier untuk Produk</file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\3941650396649f80a1d0c29036835421.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzM5NDE2NTAzOTY2NDlmODBhMWQwYzI5MDM2ODM1NDIxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Pendaftaran Produk</file_name>
+      <file_path><![CDATA[78277587866483e2e5792c7043336751\4100036626649dd0d08c861085731167.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc4Mjc3NTg3ODY2NDgzZTJlNTc5MmM3MDQzMzM2NzUxLzQxMDAwMzY2MjY2NDlkZDBkMDhjODYxMDg1NzMxMTY3IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
